@@ -61,9 +61,11 @@
         left: -3px;
         box-shadow: -3px 3px hsl(16, 100%, 30%);
     }
+    /* esse hover não tem muito a ver com o 3d*/
     .btn-3d-1:hover{
-        background: hsl(16, 100%, 30%));
+        background: hsl(16, 100%, 30%);
     }
+    /* o que é esse before?*/
     .btn-3d-1::before{
         position: absolute;
         display: block;
@@ -74,6 +76,7 @@
         border-right: solid 6px hsl(16, 100%, 30%);
         border-left: 0;
         background: none;
+        /*posicionamento*/
         top: 0;
         left:-6px;
     }
